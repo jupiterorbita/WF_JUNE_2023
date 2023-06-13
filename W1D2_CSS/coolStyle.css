@@ -1,0 +1,65 @@
+* {
+    outline: 1px solid red;
+}
+
+body {
+    width: 80%;
+    font-family: sans-serif;
+}
+h1 {
+    color: blue;
+    font-size: 50px;
+    background-color: red;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    /* background-color: purple; */
+}
+
+/* targeting a class */
+.red {
+    background-color: red;
+}
+
+/* target an id */
+#main-section{
+    background-color: darkorange;
+}
+
+p {
+    font-family: verdana;
+    background-color: skyblue;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+    /* width: 60%; */
+}
+
+.three {
+    width: 300px;
+}
+
+.boxxy {
+    /* height: 100px;
+    width: 200px; */
+    background-color: lightgoldenrodyellow;
+}
+
+/* ------------- */
+.quote p {
+    color: rgb(18, 204, 55);
+    font-style: italic;
+    background-color: brown;
+}
+
+.header > div > p {
+    background-color: yellow;
+}
