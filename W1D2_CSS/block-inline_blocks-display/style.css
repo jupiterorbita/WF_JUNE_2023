@@ -1,0 +1,84 @@
+* {
+    background-color: rgb(213, 227, 223);
+    outline: 1px dotted red;
+}
+
+.wrapper {
+    /* width: 800px; */
+    width: 95%;
+
+    outline: 3px solid blue;
+}
+
+span {
+    color: red;
+}
+
+/* margings */
+h1 {
+    /* up right down left */
+    /* margin: 0 0 40px 100px; */
+    /* up-down, left-right */
+    padding: 10px 30px;
+}
+
+/* change the default displa */
+h1, h2 {
+    display: inline-block
+}
+
+/* target all p tags and give padding */
+p {
+    padding: 20px;
+    margin: 10px;
+}
+
+/* target the second p tag */
+/* .main p:nth-child(2) {
+    background-color: blue;
+} */
+
+.small-p-tag {
+    background-color: rgb(158, 158, 216);
+    height: 150px;
+    overflow: scroll;
+}
+
+/* background picture */
+p.bg {
+    background: #113a75 url("blue-bg.avif") no-repeat fixed center;
+    color: white
+}
+
+ul {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 50%;
+    background-color: red;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    border-radius: 50px;
+}
+
+/* boxes */
+#box-1,
+#box-2,
+#box-3 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    /* align them to the top */
+    vertical-align: top;
+}
+
+#box-3 {
+    height: 150px;
+    width: 150px;
+}
+
+
