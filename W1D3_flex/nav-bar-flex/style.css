@@ -1,0 +1,50 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* main nav */
+nav {
+    background-color: #333333;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* min-height: 100px; */
+}
+
+    /* side navigation */
+    .nav-links {
+        /* background-color: green; */
+        /* width: 200px; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-left: 40px;
+        }
+
+        .active {
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .btn {
+            background-color: teal;
+            font-size: 14pt;
+            padding: 4px 8px;
+            box-shadow: 1px 2px black;
+        }
