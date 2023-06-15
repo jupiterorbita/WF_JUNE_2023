@@ -1,0 +1,131 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    /* outline: 1px solid red; */
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 900px;
+    min-height: 400px;
+    /* background-color: green; */
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgb(1, 1, 104);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+    li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    span {
+        color: rgb(45, 125, 229)
+    }
+
+    li:first-child {
+        color: blue
+    }
+
+    /* MAIN CONTENT */
+    main {
+        min-height: 300px;
+        /* background-color: aqua; */
+        padding: 10px;
+    }
+
+        main > img {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        /* --- sub content */
+        .subcontent {
+            /* background-color: goldenrod; */
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+            /* cards */
+            .card {
+                width: 250px;
+                min-height: 80px;
+                background-color: #1468a8;
+                padding: 10px;
+                color: white;
+            }
+
+                .card > img {
+                    width: 30px;
+                }
+
+                h4 {
+                    display: inline-block;
+                    font-size: 18pt;
+                    margin-bottom: 10px;
+                }
+
+                .card > p {
+                    margin-bottom: 20px;
+                }
+
+                button {
+                    background-color: #56b3ee;
+                    padding: 10px 20px;
+                    color: white;
+                    border-radius: 8px;
+                }
+
+        /* about us */
+        .about-us{
+            min-height: 100px;
+            /* background-color: darkseagreen; */
+        }
+
+            /* utility class - vertical align */
+            .align {
+                min-height: 100px;
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            .word {
+                width: 65%;
+                /* background-color: blue; */
+            }
+            
+            .make-flex {
+                display: flex;
+            }
+
+            .make-flex > img {
+                margin-right: 10px;
+            }
+             
+            .testimonial {
+                width: 33%;
+                background-color: rgb(82, 157, 94);
+            }
+
+
+
+    /* FOOTER */
+    footer {
+        min-height: 100px;
+        background-color: #daedff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 300px
+    }
