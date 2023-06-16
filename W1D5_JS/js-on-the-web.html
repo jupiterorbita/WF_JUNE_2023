@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js on the web</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .stuff {
+            border: 1px solid red
+        }
+        button {
+            background-color: green;
+            color: white
+        }
+    </style>
+</head>
+
+<body>
+    <h1>JS on the web</h1>
+    <hr>
+    <div class="stuff" onclick="example(this)">
+        <p>hello</p>
+        <ul>
+            <li>li item</li>
+        </ul>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure laudantium, odit alias minima hic at ullam
+            pariatur ut cupiditate fuga? Itaque dolor laboriosam corrupti explicabo vel obcaecati voluptate similique
+            laborum.</p>
+        <button onmouseover="cool()">Click Me!</button>
+
+    </div>
+
+    <!-- at the end of the body we put our script -->
+    <fieldset>
+        <button onclick="turnOff(this)">On</button>
+        <button onclick="turnOff(this)">On</button>
+        <button onclick="turnOff(this)">On</button>
+
+
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+
+</html>
