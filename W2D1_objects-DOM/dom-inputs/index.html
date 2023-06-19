@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more dom</title>
+</head>
+<body>
+    <h1 onclick="setColor()">more DOM</h1>
+
+    <div class="card">
+        <p id="colorDisplay">my favorite color is: </p>
+    </div>
+    
+    <!-- inputs -->
+    <input class="colorInput" type="text" > 
+    <button onclick="setColor()">submit</button>
+    
+    <p></p>
+    <!-- select tag -->
+    <div>
+
+        <label>I would like to eat </label>
+        <select onchange="chooseLunch(this)">
+            <option>Tacos</option>
+            <option>Pasta</option>
+            <option>Sushi</option>
+        </select>
+    </div>
+    
+
+    <!-- attach JS file at the end of the body -->
+    <script src="script.js"></script>
+</body>
+</html>
