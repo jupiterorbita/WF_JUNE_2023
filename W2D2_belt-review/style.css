@@ -1,0 +1,186 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: rgba(255, 0, 0, 0.269); */
+    /* outline: 2px dotted red; */
+    font-family: sans-serif;
+}
+
+/* ======== utility class ======= */
+.flex-children {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* NAV */
+nav {
+    background-color: darkgray;
+    min-height: 50px;
+    padding: 0 10px;
+    /* margin-bottom: 20px; */
+}
+
+    .left-nav {
+        /* background-color: rgba(0, 0, 255, 0.328); */
+        width: 40%;
+    }
+        .left-nav > img {
+            width: 50px;
+        }
+        .left-nav > button {
+            background-color: orange;
+        }
+    
+
+    .right-nav {
+        /* background-color: rgba(139, 0, 139, 0.317); */
+    }
+        .right-nav > button {
+            padding: 5px 10px;
+            margin-left: 15px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .right-nav > button:nth-child(1) {
+            background-color: blue;
+            color: white;
+        }
+        .right-nav > button:nth-child(2) {
+            background-color: orange;
+        }
+
+/* header - logo area */
+header {
+    /* background-color: rgba(0, 255, 255, 0.319); */
+    min-height: 50px;
+    padding: 30px 90px 0 90px;
+}
+    .header-topic {
+        /* background-color: rgba(255, 0, 0, 0.217); */
+        width: 240px;
+        min-height: 50px;
+    }
+    /* image header */
+        .header-topic > img {
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 50px;
+            padding: 5px;
+        }
+        .header-topic > button {
+            background-color: red;
+            color: white;
+            padding: 5px 22px;
+        }
+    /* LINKS */
+    header > ul {
+        padding-top: 10px;
+        /* background-color: rgba(255, 0, 0, 0.081); */
+        width: 300px;
+        list-style-type: none;
+    }
+        header > ul > li:nth-child(1) {
+            color: red;
+            text-decoration: underline;
+        }
+
+/* === MAIN SECTION === */
+main {
+    min-height: 500px;
+    background-color: lightgray;
+    padding: 5px 90px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+    /* LEFT SIDE */
+    .left-column {
+        flex: 3;
+        /* width: 60%; */
+        margin-right: 20px;
+        /* background-color: white; */
+        min-height: 400px;
+        padding: 10px;
+    }
+
+    /* THE CARD */
+    .card {
+        /* background-color: darkseagreen; */
+        min-height: 200px;
+        border: 2px solid gray;
+        align-items: flex-start;
+        background-color: white;
+        margin-bottom: 40px;
+    }
+        .vote-button {
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+        }
+        /* vote buttons */
+        .card img {
+            width: 20px;
+        }
+
+        /* THE CARD CONTENT */
+        .the-content {
+            /* background-color: dodgerblue; */
+            width: 87%;
+            padding: 5px 10px;
+        }
+        .the-content > img {
+            width: 100%;
+        }
+
+        /* bottom content links / share */
+        .bottom-content {
+            /* background-color: red; */
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+    /* RIGHT SIDE */
+    .right-column {
+        flex: 2;
+        /* width: 38%; */
+        /* background-color: rgba(80, 188, 255, 0.429); */
+        min-height: 400px;
+        margin-top: 10px;
+    }
+        div.side {
+            /* background-color: red; */
+            /* min-height: 200px; */
+            border: 2px solid gray;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            background-color: red;
+            padding: 10px 20px;
+            color: white;
+            border: 2px solid black;
+        }
+
+        ol {
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            background-color: white;
+        }
+
+        .side > button {
+            width: 90%;
+            display: block;
+            margin: 0 auto;
+            padding: 8px 12px;
+        }
