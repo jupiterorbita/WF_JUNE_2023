@@ -1,0 +1,122 @@
+⭐EXAM GUIDE - NOTES - EXPECTATIONS - RULES⭐
+
+Today: 1 week and 2 days!
+
+Exam is open book, platform / - not open GitHub! 👀⚠
+you may only use our class GitHub and yours
+
+👉 Must have 90% core assignments turned in order to take the exam (for WF it's all 7).
+** we are not speed-running a bootcamp! **
+It's a marathon not a sprint!
+
+Attendance: By taking the exam, you are present the entire day
+in a ZOOM room
+
+👉 Last day to attempt an exam is Week 3 Wed.
+
+👉 may take an exam up to 3 times (2 re-takes)
+
+Advantages of taking the exam on time:
+	ALGOS every day after
+	more time for your Portfolio Project
+	extra lectures
+
+getting an exam code
+learn.codingdojo.com/exams
+
+EXAM is emulating a take home challenge
+The exam is written as a real life example of a potential employer giving you a timed exercise to test your knowledge
+
+take 100% of the exam time! (4.5 hours + 30 mins)
+DO NOT DROP EARLY - take breaks
+👉 Ask Clarification questions
+
+Don't panic!
+- the only risk here is for you to find and expose a weakness to study and correct! 🙂
+
+Don't watch the clock ⏳
+- set alarms for mid way - last hour and last 20 mins
+
+Start with what you know
+    - simple section 
+    - Don't focus too much on each content*
+
+VALIDATE HTML before submitting
+- double check before submitting***
+- https://validator.w3.org/#validate_by_input
+- don't overthink features - do only what the exam asks
+
+Use the platform - 100% of the exam features are in the platform
+
+when submitting zip up ALL THE FILES
+    /images
+    *.html
+    *.css
+    *.js
+
+
+9. Don't go over time, submit anyway I will still code review it with you.
+- ALWAYS submit what you have
+- not submitting is automatic FAIL
+
+10. Even if you are feeling nervous - Take the exam anyway as an assignment and finish it.
+
+11. You don't have to submit a video*
+
+12. DO NOT PUSH to GitHub!
+
+13. start exam by 10:00 am MT
+
+14. DO NOT ENTER a TA HELP CHANNEL
+-> VOID THE EXAM
+
+15. Don't cheat. PERIOD
+- it's very easy to catch cheaters
+- code is like a fingerprint
+- you need to feel comfortable about what you do and do not know to survive an engineering role
+    AVAILABLE RESOURCES
+    - Learn Platform
+    - Your previous assignments, your code, your notes
+    - Lecture videos and code
+    - ONLY Our class Github + YOUR Git repo
+    - Official documentation
+    - Stack Overflow / Google
+
+16. ASKING FOR HELP
+ - this is an EXAM ¯\_(ツ)_/¯
+ - if you are stuck on a bug for > 20 mins I may or may not POINT you to a direction
+ - ask for help on Discord in our channel - DO NOT DM
+
+17. GETTING GRADED
+ - double and triple check that you met ALL REQUIREMENTS. 
+ - it may be possible to grade the exam live - if not you must submit it anyway before the time expires!
+
+## What is on the exam?
+- Recreating a website in HTML and CSS
+- 3 JS features
+- Need an 8 or higher to pass
+ 
+18. After finishing an exam: 
+...
+projects / extra lectures!
+
+if you are not taking an exam we are working together on assignments and review
+
+What to do:
+ - bring snacks
+ - Get a good rest
+ - get your template ready 
+    -- HTML
+    -- css link
+    -- js link
+
+## HOW TO GET TO THE EXAM PAGE
+
+1) Open your Learn Platform Dashboard
+2) On the top right, there is a "LEARN" link. Click on that.
+3) In the top middle of this page, there is a "Take Exams" link. Click on that.
+4) You can enter your exam code
+
+
+you got this!
+💪😎
