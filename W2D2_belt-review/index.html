@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>belt-prep</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- top nav -->
     <nav class="flex-children">
         <div class="left-nav flex-children">
             <img src="images/cat.png" alt="cat logo">
             <h1>CodeIt</h1>
-            <input type="text" placeholder="search">
-            <button>Go</button>
+            <input id="userInput" type="text" placeholder="search">
+            <button onclick="alertMe()">Go</button>
         </div>
 
         <div class="right-nav">
             <button>get App</button>
-            <button>Log in</button>
+            <button onmouseover="changeButton(this)"><p>Log in</p></button>
         </div>
 
     </nav>
@@ -28,7 +30,8 @@
         <div class="header-topic flex-children">
             <img src="images/cat.png" alt="cat logo">
             <h2>c/Dojo</h2>
-            <button>Join</button>
+            <!-- <button id="removeThisButton" onclick="removeMe(this)">Join</button> -->
+            <button id="removeThisButton" onclick="removeMe()">Join</button>
         </div>
 
         <!-- LINKS -->
@@ -47,8 +50,8 @@
             <!-- THE CARD -->
             <div class="card flex-children">
                 <div class="vote-button">
-                    <img src="images/up-arrow.png" alt="up">
-                    <span>29</span>
+                    <img onclick="voteUp('vote1')" src="images/up-arrow.png" alt="up">
+                    <span id="vote1">29</span>
                     <img src="images/down-arrow.png" alt="down">
                 </div>
 
@@ -68,8 +71,8 @@
             </div>
             <div class="card flex-children">
                 <div class="vote-button">
-                    <img src="images/up-arrow.png" alt="up">
-                    <span>29</span>
+                    <img onclick="voteUp(2)" src="images/up-arrow.png" alt="up">
+                    <span id="vote2">17</span>
                     <img src="images/down-arrow.png" alt="down">
                 </div>
 
@@ -106,7 +109,8 @@
             </div>
         </div>
     </main>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
