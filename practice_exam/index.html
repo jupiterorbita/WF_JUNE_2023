@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice exam</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- top nav bar -->
+    <nav class="flex-children">
+        <!-- left nav -->
+        <div class="left-nav flex-children">
+            <img src="images/cat.png" alt="cat logo">
+            <h1>CodeIt</h1>
+            <input id="searchInput" placeholder="search">
+            <button onclick="showAlert()">GO</button>
+        </div>
+        <!-- right nav -->
+        <div class="right-nav">
+            <button>get App</button>
+            <button>log in</button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="logo-area flex-children">
+            <img src="images/cat.png" alt="cat logo">
+            <h2>c/Dojo</h2>
+            <button id="join" onclick="removeMe(this)">Join</button>
+        </div>
+        <ul class="flex-children">
+            <li>posts</li>
+            <li>wiki</li>
+            <li>c/Dojo</li>
+            <li>discord</li>
+        </ul>
+    </header>
+
+    <main class="flex-children">
+        <div class="left-content">
+
+            <!-- first post -->
+            <div class="post flex-children">
+                <div class="buttons">
+                    <img onclick="upvote(1)" src="images/up-arrow.png" alt="up">
+                    <!-- <img onclick="universalUpvote(1, this)" src="images/up-arrow.png" alt="up"> -->
+                    <span id="upvoteNumber1">29</span>
+                    <img  src="images/down-arrow.png" alt="down">
+                    <!-- <img onclick="universalUpvote(1, this)" src="images/down-arrow.png" alt="down"> -->
+
+                </div>
+
+                <div class="main-post">
+                    <h3>Best of Project Week 2022!</h3>
+                    <img src="images/image1.webp" alt="shape">
+                    <div class="under-pic flex-children">
+                        <img src="images/chat.png" alt="chat">
+                        <span>42 comments &nbsp;&nbsp;&nbsp;</span>
+                        <img src="images/share.png" alt="share">
+                        <span>share</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- second post -->
+            <div class="post flex-children">
+                <div class="buttons">
+                    <img onclick="upvote(2)" src="images/up-arrow.png" alt="up">
+                    <span id="upvoteNumber1">29</span>
+                    <img src="images/down-arrow.png" alt="down">
+
+                </div>
+
+                <div class="main-post">
+                    <h3>Best of Project Week 2022!</h3>
+                    <img src="images/image2.webp" alt="shape">
+                    <div class="under-pic flex-children">
+                        <img src="images/chat.png" alt="chat">
+                        <span>42 comments &nbsp;&nbsp;&nbsp;</span>
+                        <img src="images/share.png" alt="share">
+                        <span>share</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+
+            </div>
+        </div>
+
+        <div class="right-content">
+            <div class="side">
+                <h4>discord</h4>
+                <button>discord.gg/cdojo</button>
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+    <!-- link js -->
+    <script src="script.js"></script>
+</body>
+
+</html>

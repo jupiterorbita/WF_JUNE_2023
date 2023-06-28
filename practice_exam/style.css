@@ -1,0 +1,164 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px dotted red; */
+    font-family: sans-serif;
+}
+
+body {
+    /*! at the end */
+    width: 900px;
+}
+/* utility class */
+.flex-children {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ======= NAV BAR ======= */
+nav {
+    background-color: grey;
+    min-height: 50px;
+    padding: 5px 10px;
+}
+
+    /* LEFT NAV */
+    .left-nav {
+        /* background-color: red; */
+        width: 400px;
+    }
+
+        .left-nav > img {
+            height: 40px;
+        }
+        .left-nav > button {
+            background-color: darkorange;
+        }
+
+    /* RIGHT NAV */
+    .right-nav {
+        /* background-color: blue; */
+    }
+        .right-nav > button:nth-child(1) {
+            margin-right: 30px;
+            background-color: blue;
+            color: white;
+        }
+        .right-nav > button:nth-child(2) {
+            background-color: darkorange;
+        }
+
+/* ==== HEADER ==== */
+header {
+    /* background-color: red; */
+    padding: 20px 140px 0 140px;
+    min-height: 100px;
+}
+
+    /* LEFT logo area */
+    .logo-area {
+        width: 220px;
+        /* background-color: blue; */
+    }
+    .logo-area > img {
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+    .logo-area > button {
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+    }
+
+    /* UL links */
+    ul {
+        width: 300px;
+        list-style-type: none;
+        margin-top: 15px;
+    }
+
+/* ===== MAIN CONTENT ======= */
+main {
+    min-height: 600px;
+    background-color: lightgray;
+    padding: 10px 140px 0 140px;
+}
+/* ----- LEFT MAIN -------------- */
+.left-content {
+    min-height: 600px;
+    flex: 3;
+    /* background-color: rgba(0, 128, 128, 0.286); */
+}
+    /* POST CARD */
+    .post {
+        /* background-color: rgba(255, 0, 0, 0.346); */
+        min-height: 150px;
+        margin-bottom: 10px;
+        padding: 10px;
+        /* override */
+        align-items: flex-start;
+        border: 2px solid darkgray;
+        background-color: white;
+    }
+        /* vote buttons */
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* width: 30px;
+            margin-right: 10px; */
+            /* flex: 1; */
+            background-color: rgba(0, 247, 255, 0.26);
+        }
+            .buttons > img {
+                width: 25px;
+                display: block;
+            }
+        .main-post {
+            /* flex: 7; */
+            width: 270px;
+            /* background-color: rgb(0, 94, 255); */
+        }
+            .main-post > img {
+                width: 100%;
+            }
+            .under-pic > img{
+                width: 20px;
+                margin-right: 10px;
+            }
+            .under-pic {
+                justify-content: flex-start;
+            }
+
+/* ----- RIGHT MAIN -------------- */
+    .right-content {
+        flex: 2;
+        margin-left: 20px;
+        min-height: 600px;
+        background-color: rgba(31, 154, 25, 0.293);
+    }
+
+        .side {
+            min-height: 50px;
+            background-color: rgba(0, 26, 255, 0.273);
+            margin-bottom: 10px;
+        }
+
+            .side h4 {
+                background-color: red;
+                color: white;
+                padding: 8px;
+                border: 2px solid black;
+                margin-bottom: 10px;
+            }
+
+            .side > button {
+                display: block; /*! must to center */
+                width: 80%;
+                margin: 0 auto;
+                background-color: white;
+            }
